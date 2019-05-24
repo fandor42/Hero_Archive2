@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hero_Archive</string>
+    <string name="editUser">Usuário</string>
+    <string name="editPass">Senha</string>
+    <string name="editPassCnf">Confirmar senha</string>
+    <string name="buttonLogin">Login</string>
+    <string name="createAccount">Criar conta</string>
+    <string name="not_registered">Não possui conta?</string>
+    <string name="textViewRegister">Registrar</string>
+    <string name="alredy_registered">Já possui conta?</string>
+    <string name="textViewLogin">Login</string>
+    <string name="bem_vindo">Bem Vindo</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_activity_character_sheet">characterSheet</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="core_sheet">Core</string>
+    <string name="skills_sheet">Skills</string>
+    <string name="traits_sheet">Traits</string>
+    <string name="magic_sheet">Magic</string>
+</resources>

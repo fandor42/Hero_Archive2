@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#EE0000">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/d20_icon"/>
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:hint="@string/editUser"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="@string/editPass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/buttonLogin" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:text="@string/not_registered"/>
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/textViewRegister"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

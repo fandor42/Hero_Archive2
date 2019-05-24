@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE0000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/d20_icon" />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:hint="@string/editUser"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="@string/editPass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editPassCnf"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="@string/editPassCnf"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:text="@string/createAccount"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/alredy_registered"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/textViewLogin"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
