@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = editTextPass.getText().toString().trim();
                 boolean res = db.checkUser(user, password);
                 if (res == true){
-                    Intent perfil  = new Intent(MainActivity.this, PerfilActivity.class );
+                    Intent perfil  = new Intent(MainActivity.this, NovaFichaActivity.class );
                     startActivity(perfil);
                     finish();
                     //Toast.makeText(MainActivity.this, "Usuário logou com sucesso!", Toast.LENGTH_SHORT).show();

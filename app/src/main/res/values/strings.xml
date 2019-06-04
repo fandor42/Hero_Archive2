@@ -19,4 +19,7 @@
     <string name="skills_sheet">Skills</string>
     <string name="traits_sheet">Traits</string>
     <string name="magic_sheet">Magic</string>
+    <string name="date">date</string>
+    <string name="personagem">personagem</string>
+    <string name="sistema">sistema</string>
 </resources>
