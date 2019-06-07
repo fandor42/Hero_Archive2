@@ -1,12 +1,10 @@
 package com.example.hero_archive;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 
 public class NovaFichaActivity extends AppCompatActivity {
 
@@ -21,10 +19,9 @@ public class NovaFichaActivity extends AppCompatActivity {
 
 
         final EditText editTextNome = findViewById(R.id.editText_nome);
-        final Spinner spinnerSistema = findViewById(R.id.spinner_sistema);
+        final EditText editTextRaça = findViewById(R.id.editText_raça);
+        final EditText editTextClasse = findViewById(R.id.editText_classe);
         Button buttonCriarFicha = findViewById(R.id.button_criar_ficha);
-
-        Ficha_DnD = new Ficha_DnD(getApplicationContext());
 
         buttonCriarFicha.setOnClickListener(new View.OnClickListener() {
             @Override
