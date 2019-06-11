@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText_ChNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Personagem"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Tendencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tendência"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_PjNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Jogador"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_ChClasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Classe"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Nv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nível"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Divindade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Divindade"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_TerraNatal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Terra Natal"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_ChRaça"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Raça"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Tamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tamanho"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sexo"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Cabelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cabelo"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/editText_Olhos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Olhos"
+        android:layout_marginBottom="2dp"/>
+
+</LinearLayout>

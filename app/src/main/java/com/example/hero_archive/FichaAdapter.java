@@ -44,6 +44,7 @@ public class FichaAdapter extends RecyclerView.Adapter<FichaAdapter.FichaViewHol
 
     @Override
     public int getItemCount() {
+
         return ficha_dnDS.size();
     }
 

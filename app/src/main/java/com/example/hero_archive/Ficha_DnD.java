@@ -14,6 +14,7 @@ class Ficha_DnD {
 
 
     public String getNomePersonagem() {
+
         return nomePersonagem;
     }
 
@@ -38,4 +39,6 @@ class Ficha_DnD {
     public void setRaçaPersonagem (String raçaPersonagem) {
         this.raçaPersonagem = raçaPersonagem;
     }
+
 }
+
