@@ -21,7 +21,7 @@ public class FeedActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerView_fichas);
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
 
-        Ficha_DnD ficha_dnD1 = new Ficha_DnD("Testando", "Qualquer coisa", "Olaolaolaoa");
+        Ficha_DnD ficha_dnD1 = new Ficha_DnD("Bedric", "Mighty Blade");
 
         ficha_dnDS.add(ficha_dnD1);
 

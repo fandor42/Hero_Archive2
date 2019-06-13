@@ -31,8 +31,7 @@ public class FichaAdapter extends RecyclerView.Adapter<FichaAdapter.FichaViewHol
     public void onBindViewHolder(@NonNull FichaViewHolder fichaViewHolder, int posicao) {
         Ficha_DnD ficha_dnD = ficha_dnDS.get(posicao);
         fichaViewHolder.textViewcChacterName.setText(ficha_dnD.getNomePersonagem());
-        fichaViewHolder.textViewChacaterClass.setText(ficha_dnD.getClassePersonagem());
-        fichaViewHolder.textViewChacterRace.setText(ficha_dnD.getRaçaPersonagem());
+        fichaViewHolder.textViewChacterSystem.setText(ficha_dnD.getSystemPersonagem());
 
         fichaViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,15 +50,13 @@ public class FichaAdapter extends RecyclerView.Adapter<FichaAdapter.FichaViewHol
     public class FichaViewHolder extends RecyclerView.ViewHolder{
 
         TextView textViewcChacterName;
-        TextView textViewChacaterClass;
-        TextView textViewChacterRace;
+        TextView textViewChacterSystem;
 
         public FichaViewHolder(@NonNull View itemView) {
             super(itemView);
 
             textViewcChacterName = itemView.findViewById(R.id.textViewCharacterName);
-            textViewChacaterClass = itemView.findViewById(R.id.textViewCharacterClass);
-            textViewChacterRace = itemView.findViewById(R.id.textViewCharacterRace);
+            textViewChacterSystem = itemView.findViewById(R.id.textViewCharacterSystem);
         }
     }
 }

@@ -2,14 +2,12 @@ package com.example.hero_archive;
 
 class Ficha_DnD {
     private String nomePersonagem;
-    private String classePersonagem;
-    private String raçaPersonagem;
+    private String systemPersonagem;
 
 
-    public Ficha_DnD(String nomePersonagem, String classePersonagem, String raçaPersonagem) {
+    public Ficha_DnD(String nomePersonagem, String systemPersonagem) {
         this.nomePersonagem = nomePersonagem;
-        this.classePersonagem = classePersonagem;
-        this.raçaPersonagem = raçaPersonagem;
+        this.systemPersonagem = systemPersonagem;
     }
 
 
@@ -19,25 +17,17 @@ class Ficha_DnD {
     }
 
     public void setNomePersonagem (String nomePersonagem) {
+
         this.nomePersonagem = nomePersonagem;
     }
 
-    public String getClassePersonagem() {
 
-        return classePersonagem;
+    public String getSystemPersonagem(){
+        return systemPersonagem;
     }
 
-    public void setClassePersonagem (String classePersonagem) {
-        this.classePersonagem = classePersonagem;
-    }
-
-    public String getRaçaPersonagem() {
-
-        return raçaPersonagem;
-    }
-
-    public void setRaçaPersonagem (String raçaPersonagem) {
-        this.raçaPersonagem = raçaPersonagem;
+    public  void setSystemPersonagem (String systemPersonagem) {
+        this.systemPersonagem = systemPersonagem;
     }
 
 }
